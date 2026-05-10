@@ -1,0 +1,31 @@
+name: Feature request
+description: Request a feature with clear acceptance criteria.
+title: "[Feature]: "
+labels: ["Feature Bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the feature or behavior you want.
+      placeholder: Add a concise description of the requested feature.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List the conditions that must be true for this issue to be complete.
+      placeholder: |
+        - The user can ...
+        - The UI shows ...
+        - Errors are handled by ...
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Add links, screenshots, or implementation constraints.
+    validations:
+      required: false
