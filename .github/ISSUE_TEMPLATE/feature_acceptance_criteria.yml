@@ -1,0 +1,41 @@
+name: Feature acceptance criteria
+description: Request a feature with clear acceptance criteria.
+title: "[Feature]: "
+labels:
+  - Feature Bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature
+      description: Describe the feature or behavior you want.
+      placeholder: Add the user-facing behavior this feature should provide.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List the conditions that must be true for this feature to be complete.
+      placeholder: |
+        - Users can...
+        - The UI/API shows...
+        - Errors are handled by...
+    validations:
+      required: true
+  - type: textarea
+    id: affected-areas
+    attributes:
+      label: Affected Areas
+      description: Note the files, screens, APIs, or workflows expected to change.
+      placeholder: README, issue templates, UI screen, API route, etc.
+    validations:
+      required: false
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: Describe how maintainers can verify the feature.
+      placeholder: Add manual checks, commands, screenshots, or expected output.
+    validations:
+      required: false
