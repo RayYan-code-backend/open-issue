@@ -10,6 +10,8 @@ pull request descriptions, and automatic payout metadata are handled correctly.
 
 Use this checklist when opening or reviewing a feature or bug issue:
 
+- Feature or Bug: identify whether the request is a feature, behavior bug, or
+  interface issue.
 - Description: summarize the behavior or interface problem in one sentence.
 - Acceptance Criteria: list the exact conditions that make the issue complete.
 - Steps to Reproduce: include the shortest reproducible path when behavior is
